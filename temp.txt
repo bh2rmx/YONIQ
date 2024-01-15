@@ -42,7 +42,7 @@ void __fastcall TZoomViewDlg::UpdateTitle(void)
 
 	char bf[256];
 
-	strcpy(bf, MsgEng ? "Picture viewer" : "画像表示");
+	strcpy(bf, MsgEng ? "Picture viewer" : "逕ｻ蜒剰｡ｨ遉ｺ");
 
 	char bbf[64];
 	sprintf(bbf, " - Source:%dx%d", pBitmap->Width, pBitmap->Height);
@@ -151,7 +151,7 @@ void __fastcall TZoomViewDlg::FormResize(TObject *Sender)
 	UpdateTitle();
 }
 //---------------------------------------------------------------------------
-// 高度な伸縮コピー
+// 鬮伜ｺｦ縺ｪ莨ｸ邵ｮ繧ｳ繝斐�ｼ
 void __fastcall TZoomViewDlg::StretchCopy(Graphics::TBitmap *pbmp)
 {
 	if( pBitmapS == NULL ){
@@ -187,4 +187,4 @@ void __fastcall TZoomViewDlg::UpdateViewSize(void)
 }
 
 
-
+  
